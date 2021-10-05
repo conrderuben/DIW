@@ -1,0 +1,18 @@
+h1.titulo{
+
+    border: 2px solid blue;
+    border-radius: 20px 50px;
+    width: 500px;
+    height: 100px;
+    padding: 15px;
+    line-height: 100px;
+    text-align: center;
+    background-color: lightblue;
+    cursor: crosshair;
+    margin: 0 auto;
+    
+
+}
+p{
+    text-align: center;
+}

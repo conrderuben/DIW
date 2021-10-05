@@ -1,0 +1,35 @@
+
+<!--
+    1. Crear un fichero HTML con dos textos, uno entre etiquetas <h1> y otro entre etiquetas <p>. Luego incluir en el <head> estilos con clases abstractas que muestren:
+- El texto en <h1> en verde con fondo azul
+- El texto de <p> en azul con fondo verde.
+
+ Resolver la actividad de dos maneras:
+
+1.1.- La primera, usando una declaración de estilos con 4 etiquetas (dos para los colores y dos para los fondos).
+
+1.2.- La segunda usando dos etiquetas: una que se puede llamar .textoverdefondoazul y otra que se puede llamar .textoazulfondoverde.
+
+2. Crear un fichero HTML que defina un selector de clase y un selector de identificador. Probar a usar ID y CLASS en uno y varios elementos HTML y comprobar su efecto. ¿Qué pasa si no se cumple la especificación y se repite un identificador en varios elementos? ¿Cómo responde el navegador?
+-->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>1.1</h1>
+    <h1 class="colorverde fondoazul">Esto es el h1</h1>
+    <p class="colorazul fondoverde">Esto es el parrafo</p>
+    <h1>1.2</h1>
+    <h1 class="colorverdefondoazul">Esto es el h1</h1>
+    <p class="colorazulfondoverde">Esto es el parrafo</p>
+    <h1>1.3</h1>
+    <p class="class" id="id">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium velit corrupti et reiciendis qui culpa quae tempora praesentium perspiciatis saepe temporibus facilis rem possimus eum quam, non facere, consequuntur voluptas?</p>
+    <p  id="id">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium velit corrupti et reiciendis qui culpa quae tempora praesentium perspiciatis saepe temporibus facilis rem possimus eum quam, non facere, consequuntur voluptas?</p>
+</body>
+</html>

@@ -1,0 +1,36 @@
+
+.colorverde{
+    color: green;
+
+}
+.fondoazul{
+    background-color: lightblue;
+}
+
+.colorazul{
+    color: blue;
+}
+
+.fondoverde{
+    background-color: lightgreen;
+}
+
+.colorverdefondoazul{
+    color: green;
+    background-color: lightblue;
+}
+
+.colorazulfondoverde{
+    color: blue;
+    background-color: lightgreen;
+}
+
+#id{
+    color:violet;
+
+}
+
+.clase{
+    color: teal;
+}
+
