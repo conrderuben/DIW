@@ -9,7 +9,8 @@ h1.titulo{
     text-align: center;
     background-color: lightblue;
     cursor: crosshair;
-    margin: 0 auto;
+    margin: auto;
+    vertical-align: bottom;
     
 
 }
