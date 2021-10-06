@@ -1,0 +1,55 @@
+#titulo{
+    color:cadetblue;
+}
+
+p strong{
+    color: red;
+}
+
+span.destacado{
+    color:orange;
+}
+
+#subtitulo{
+    color: darkblue;
+}
+a{
+    color: red;
+}
+a em{
+    color:blue;
+}
+span.especial{
+    color: purple;
+}
+caption{
+    color:blue;
+}
+table,tr,th,td {
+    border:1px solid black; 
+    border-collapse: collapse;
+    padding: 4px;
+}
+tr th.especial{
+    color: orange;
+}
+tr th{
+    color:red;
+}
+
+
+tbody tr td{
+    color:green;
+}
+td strong{
+    color: orange;
+}
+#adicional p{
+    color: olive;
+}
+span#especial{
+    color: palevioletred;
+}
+#adicional p a{
+    color: green;
+}
