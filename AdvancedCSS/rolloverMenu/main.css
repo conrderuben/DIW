@@ -24,14 +24,14 @@
 .izquierda:hover{
     width: 200px;
     height: 180px;
-    background: url("img.png") -400px -400 ;
+    background: url("img.png") -400px 180px;
     float:left;
     list-style: none;
 }
 .derecha:hover{
     width: 200px;
     height: 180px;
-    background: url("img.png") -400 0 ;
+    background: url("img.png") -400px 0 ;
     float:right;
     list-style: none;
     
