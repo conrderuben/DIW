@@ -1,0 +1,19 @@
+.lista{
+    list-style-image:url('./flecha_inactiva.png') ;
+    list-style-position: inside;
+    border: 2px solid black;
+    padding-left: 0;
+    width: 120px;
+    
+}
+.lista li{
+    border-bottom: 2px solid black;
+    padding: 2px;
+}
+.lista li:last-child{
+    border-bottom: none;
+}
+.lista li:hover{
+    list-style-image:url('./flecha_activa.png') ;
+    cursor: pointer;
+}
