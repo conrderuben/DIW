@@ -12,7 +12,7 @@ div.opcion{
     border: 2px solid black;
     border-radius: 10px;
     display: inline-block;
-    background-color: rgb(40, 154, 158);
+    background-color: rgb(108, 9, 117);
     text-align: center;
     line-height: 130px;
     vertical-align: center;
@@ -21,12 +21,18 @@ div.opcion{
     overflow: hidden;
     transition: all 0.5s;
     opacity: 0.75;
+    color:rgb(40, 154, 158);
 }
 div.menu:first-child{
     margin-left: 6px;
 }
 div.opcion:hover{
     line-height: 60px;
-    transition: all 0.5s;
+    transition:all 0.5s;
     opacity: 1;
+    color: rgb(108, 9, 117);
+    height: 65px;
+    background-color: rgb(37, 169, 202);
+    
+
 }
