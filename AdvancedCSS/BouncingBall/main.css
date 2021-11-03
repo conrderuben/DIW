@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.content{
+    height: 100%;
+    width: 100%;
+}
+div.ball{
+    margin: 0 auto;
+    background:url("ball.png");
+    background-size: 200px 200px;
+    height: 200px;
+    width: 200px;
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes bounce {
+    0%{top: 0;}
+    70%{top: 400px;}
+    80%{top: 450px;}
+    90%{top: 500px;}
+    100%{top: 550px;}
+}
