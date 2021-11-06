@@ -1,0 +1,87 @@
+.content{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(148, 102, 29);
+    position: absolute;
+    padding: auto;
+}
+
+.image{
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    border: 1px solid black;
+    height: 220px;
+    width: 200px;
+    padding:25px 25px 50px 25px;
+    background-color: white;
+
+}
+img{
+    border: 1px solid black; 
+    height: 200px;
+    width: 200px;  
+    position: relative; 
+}
+img:hover{
+    height: 220px;
+    width: 220px; 
+}
+#uno{
+    transform: rotate(-20deg);
+    z-index: 1;
+    transition-duration: 0.5s;
+}
+#uno:hover{
+    transform: rotate(0deg) translate(0px,0px);
+    left: 570px;
+    top: 180px;
+    z-index: 3;
+    height: 250px;
+    width: 220px;
+    padding:35px 35px 50px 35px;
+}
+
+#dos{
+    transform: rotate(20deg) translate(30px,120px);
+    z-index: 2;
+    transition-duration: 0.5s;
+}
+#dos:hover{
+    transform: rotate(0deg) translate(0px,0px);
+    left: 570px;
+    top: 180px;
+    z-index: 3;
+    height: 250px;
+    width: 220px;
+    padding:35px 35px 50px 35px;
+}
+#tres{
+    transform: translate(200px,0) rotate(10deg);
+    z-index: 1;
+    transition-duration: 0.5s;
+}
+#tres:hover{
+    transform: rotate(0deg) translate(0px,0px);
+    left: 570px;
+    top: 180px;
+    z-index: 3;
+    height: 250px;
+    width: 220px;
+    padding:35px 35px 50px 35px;
+}
+#cuatro{
+    transform: translate(180px,200px);
+    z-index: 1;
+    transition-duration: 0.5s;
+}
+#cuatro:hover{
+    transform: rotate(0deg) translate(0px,0px);
+    left: 570px;
+    top: 180px;
+    z-index: 3;
+    height: 250px;
+    width: 220px;
+    padding:35px 35px 50px 35px;
+    
+}
