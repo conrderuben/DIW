@@ -14,19 +14,31 @@ body {
 }
 
 .man {
-    background-color: rgb(118, 205, 240);
-    border: 1px solid black;
-    height: 108px;
-    width: 61px;
+    position: absolute;
+    background: url(https://i.imgur.com/ifk0SLH.png) repeat-x;
+    width: 112px;
+    height: 156px;
     overflow: hidden;
-    animation: walk .8s steps(6) infinite;
+    animation-name: walk, mov;
+    animation-duration: 0.8s, 5s;
+    animation-iteration-count: infinite, infinite;
+    animation-timing-function: steps(6), ease-in;
 }
 
 @keyframes walk {
     0% {
-        background-position: 0px;
+        background-position: 0;
     }
     100% {
-        background-position: -466px;
+        background-position: -672px;
+    }
+}
+
+@keyframes mov {
+    0% {
+        left: -200px;
+    }
+    100% {
+        left: 2000px;
     }
 }
