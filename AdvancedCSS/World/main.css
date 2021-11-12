@@ -1,0 +1,25 @@
+#world {
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#map {
+    margin: 0 auto;
+    position: absolute;
+    height: 420px;
+    transform: translateY(-100px);
+}
+
+#ball {
+    height: 300px;
+    width: 300px;
+}
+
+#mapa {
+    height: 420px;
+    width: 100%;
+}
