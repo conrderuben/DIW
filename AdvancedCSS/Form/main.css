@@ -1,17 +1,67 @@
- span label {
-     display: block;
- }
+.titulo{
+    font-weight: bold;
+   
+}
+label{
+    display: block;
+}
+.requerido{
+    color: red;
+}
+li{
+    list-style: none;
+}
+
+li:hover{
+background-color: #FF9;
+}
+
+input[type="text"]:hover {
+    border: 2px solid #E6B700;
+  }
+  input{
+      height: 20px;
+  }
+
+.titulo{
+      float: left;
+      width: 150px;
+
+  }
+
+  .ayuda{
+    color: white;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+  }
  
- li:hover {
-     background-color: #FF9;
-     border-top: 1px solid black;
-     border-bottom: 1px solid black;
- }
- 
- input:focus {
-     border: 1px solid #E6B700;
- }
- 
- .titulo {
-     float: left;
- }
+  ul li{
+      margin:0;
+      padding: 1em;
+  }
+  ul li div{
+
+      overflow: hidden; 
+  }
+  ul li{
+      position: relative;
+  }
+  ul li:hover p.ayuda {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    color: black;
+  }
+  ul li:hover{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}#alta{
+    position: absolute;
+    right: 0;
+    top:0;
+}
