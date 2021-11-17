@@ -1,35 +1,37 @@
-.titulo{
+.titulo {
     font-weight: bold;
-   
 }
-label{
+
+label {
     display: block;
 }
-.requerido{
+
+.requerido {
     color: red;
 }
-li{
+
+li {
     list-style: none;
 }
 
-li:hover{
-background-color: #FF9;
+li:hover {
+    background-color: rgb(255, 255, 37);
 }
 
 input[type="text"]:hover {
     border: 2px solid #E6B700;
-  }
-  input{
-      height: 20px;
-  }
+}
 
-.titulo{
-      float: left;
-      width: 150px;
+input {
+    height: 20px;
+}
 
-  }
+.titulo {
+    float: left;
+    width: 150px;
+}
 
-  .ayuda{
+.ayuda {
     color: white;
     padding: 0;
     margin: 0;
@@ -37,31 +39,36 @@ input[type="text"]:hover {
     top: 0;
     right: 0;
     width: 150px;
-  }
- 
-  ul li{
-      margin:0;
-      padding: 1em;
-  }
-  ul li div{
+}
 
-      overflow: hidden; 
-  }
-  ul li{
-      position: relative;
-  }
-  ul li:hover p.ayuda {
+ul li {
+    margin: 0;
+    padding: 1em;
+}
+
+ul li div {
+    overflow: hidden;
+}
+
+ul li {
+    position: relative;
+}
+
+ul li:hover p.ayuda {
     position: absolute;
     top: 0;
     right: 0;
     width: 150px;
     color: black;
-  }
-  ul li:hover{
+}
+
+ul li:hover {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-}#alta{
+}
+
+#alta {
     position: absolute;
     right: 0;
-    top:0;
+    top: 0;
 }
