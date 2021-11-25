@@ -1,0 +1,17 @@
+#nombre:focus,#apellidos:focus,#dni:focus{
+    border: 3px solid black;
+    background-color: cadetblue;
+
+}
+input:focus{
+     border: 3px solid black;
+    background-color: cadetblue;
+}
+.o1,.o2,.o3{
+    display: none;
+    
+}
+#nombre:hover + .o1,#apellidos:hover + .o2,#dni:hover + .o3{
+    display: inline;
+    
+}

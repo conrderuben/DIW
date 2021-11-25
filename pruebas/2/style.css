@@ -1,0 +1,51 @@
+.borde{
+    border: 15px solid;
+    border-image: url('borde.png') 14 14 round;
+    width: 15%;
+    text-align: center;
+    line-height: 100%;
+    margin: 0 auto;
+    
+}
+
+
+
+.botones span{
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(18, 30, 206);
+    margin-left: 43%;
+    margin-top: 5%;
+    animation: cargar 1s infinite linear;
+    
+}
+.botones span:nth-child(1){
+    left: 50px;
+}
+.botones span:nth-child(2){
+    left: 100px;
+    animation-delay:0.25s;
+}
+.botones span:nth-child(3){
+    left: 150px;
+    animation-delay:0.50s;
+}
+.botones span:nth-child(4){
+    left: 200px;
+    animation-delay:0.75s;
+}
+
+.botones:hover span {
+    animation-play-state: paused;
+}
+
+
+
+@keyframes cargar {
+    0% {opacity: 0.3;}
+    50%{opacity:1;}
+    100%{opacity:0.3;}
+}
+
